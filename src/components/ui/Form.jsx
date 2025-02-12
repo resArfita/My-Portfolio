@@ -25,9 +25,7 @@ const Form = () => {
     if (!formData.name) errors.name = "Name is required";
     if (!formData.email) {
       errors.email = "Email is required";
-      // }else if(!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(formData.email)){
-      //   errors.email = "Invalid email address";
-      // }
+
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       errors.email = "Invalid email address";
     }
@@ -56,9 +54,6 @@ const Form = () => {
           toast.success("Message sent!");
           setFormData({ name: "", email: "", message: "" });
 
-          // setTimeout(() => {
-          //   toast.success("Message sent!");
-          // }, 100);
         })
         .catch((error) => {
           console.log("FAILED...", error);
@@ -81,22 +76,20 @@ const Form = () => {
 */}
 
         <section className="bg-transparent">
-        <Toaster />
-            
+          <Toaster />
+
           <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-            
             <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
               <div className="lg:col-span-2 lg:py-12">
                 <p className="max-w-xl text-lg">
-                  I&apos;m open to any good opportunities where I can implement my skills in the process of making good products
+                  I&apos;m open to feedbacks and any good opportunities where I can implement
+                  my skills in the process of making good products
                 </p>
 
                 <div className="mt-8">
-                  <a href="#" className="text-2xl font-bold text-yellow-500">
-                    {" "}
-                    Reach Me Out Here :{" "}
+                  <a className="text-2xl font-bold text-yellow-400">
+                    Reach Me Out Here :
                   </a>
-
                 </div>
               </div>
 
