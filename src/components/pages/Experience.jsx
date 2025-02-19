@@ -1,12 +1,14 @@
 import Divider from "../ui/Divider"
 import Card from "../ui/Card"
+import Heading from "../ui/Heading"
+
 const Experience = () => {
     return(
         <>
-        <div>
-            <Divider header="Experience"/>
-
-            <Card year="2024" month="Aug - Nov" />
+        <div id="experience">
+            <Divider />
+            <Heading header="My Experience" />
+            <Card />
         </div>
         </>
     )

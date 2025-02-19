@@ -5,7 +5,7 @@ import Heading from "../ui/Heading";
 const Contact = () => {
   return (
     <>
-      <div>
+      <div id="contact">
         <Divider />
 
         <Heading header="Contact" />
