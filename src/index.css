@@ -1,6 +1,12 @@
 @import "tailwindcss";
 
+
 body{
     background-color: #02010f;
     color: #ffffff;
+    background-image: linear-gradient(to right bottom, #02010f, #0d0920, #120f31, #181241, #221351);
+}
+
+.navbar-bg{
+    background-image: linear-gradient(to right bottom, #02010f, #0d0920, #120f31, #181241, #221351);
 }

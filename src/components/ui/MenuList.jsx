@@ -8,7 +8,7 @@ const MenuList = () => {
               <li>
                 <a
                   href="#"
-                  className="block rounded-lg bg-indigo-950 px-4 py-2 text-sm font-medium text-neutral-50"
+                  className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-indigo-950 hover:text-neutral-50"
                 >
                   Profile
                 </a>
@@ -16,7 +16,7 @@ const MenuList = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="#projects"
                   className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-indigo-950 hover:text-neutral-50"
                 >
                   Projects
@@ -25,7 +25,7 @@ const MenuList = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="#experience"
                   className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-indigo-950 hover:text-neutral-50"
                 >
                   Experience
@@ -34,7 +34,7 @@ const MenuList = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="#skills"
                   className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-indigo-950 hover:text-neutral-50"
                 >
                   Skills
@@ -47,34 +47,26 @@ const MenuList = () => {
             <ul className="space-y-1">
               <li>
                 <a
-                  href="#"
+                  href="#collections"
                   className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-indigo-950 hover:text-neutral-50"
                 >
-                  Education
+                  Collections
                 </a>
               </li>
-
-              <li>
-                <a
-                  href="#"
-                  className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-indigo-950 hover:text-neutral-50"
-                >
-                  Case study
-                </a>
-              </li>
-
             </ul>
           </li>
 
           <li className="py-2">
-            <form action="#">
-              <button
-                type="submit"
-                className="block w-full rounded-lg px-4 py-2 text-sm font-medium text-gray-500 [text-align:_inherit] hover:bg-indigo-950 hover:text-neutral-50"
-              >
-                Contact
-              </button>
-            </form>
+            <ul className="space-y-1">
+              <li>
+                <a
+                  href="#contact"
+                  className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-indigo-950 hover:text-neutral-50"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>

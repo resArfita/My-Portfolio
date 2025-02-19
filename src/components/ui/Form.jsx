@@ -25,7 +25,7 @@ const Form = () => {
     if (!formData.name) errors.name = "Name is required";
     if (!formData.email) {
       errors.email = "Email is required";
-
+      
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       errors.email = "Invalid email address";
     }
@@ -53,7 +53,6 @@ const Form = () => {
           console.log("SUCCESS...", response);
           toast.success("Message sent!");
           setFormData({ name: "", email: "", message: "" });
-
         })
         .catch((error) => {
           console.log("FAILED...", error);
@@ -82,14 +81,15 @@ const Form = () => {
             <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
               <div className="lg:col-span-2 lg:py-12">
                 <p className="max-w-xl text-lg">
-                  I&apos;m open to feedbacks and any good opportunities where I can implement
-                  my skills in the process of making good products
+                  I&apos;m open to feedback and new opportunities to grow and refine my skills by collaboration to create meaningful products
                 </p>
 
                 <div className="mt-8">
-                  <a className="text-2xl font-bold text-yellow-400">
-                    Reach Me Out Here :
-                  </a>
+                  <h3 className="text-2xl font-bold text-yellow-500">
+                    
+                    Feel Free to Reach Out :
+                  </h3>
+
                 </div>
               </div>
 
