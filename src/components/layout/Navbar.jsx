@@ -3,7 +3,7 @@ import Menu from "../ui/Menu";
 const Navbar = () => {
   return (
     <>
-      <nav className="sticky top-0 z-50 flex  border-gray-100 navbar-bg backdrop-blur-lg w-full py-6">
+      <nav className="sticky top-0 z-50 flex  border-gray-100 bg-my-blue border-b backdrop-blur-lg w-full py-6">
         <Menu />
 
         <div className="hidden md:flex gap-3 justify-center m-auto">
