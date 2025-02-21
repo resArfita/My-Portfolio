@@ -18,7 +18,7 @@ const Hero = () => {
             to contribute to building immersive products</p>
 
             <a
-            href="https://drive.google.com/file/d/1kAp7oQzgNfmpAWcQif81EzAJjSxQJpZV/view?usp=sharing"
+            href="https://drive.google.com/file/d/1y1uWe-cS-xxMeTXHmv4QVy4mwnDy0G4Y/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="mb-5 bg-gray-200 text-slate-950 rounded-full flex items-center gap-x-2 py-2 px-3 text-sm font-semibold tracking-tight"
